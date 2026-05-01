@@ -1,0 +1,35 @@
+# Restaurant Management System
+
+## Project Structure
+ restaurant_management_system/
+ ├── config/
+ │   ├── __init__.py
+ │   ├── config.py
+ │   └── setup.py
+ ├── models/
+ │   ├── __init__.py
+ │   ├── restaurant.py
+ │   ├── menu.py
+ │   ├── order.py
+ │   └── user.py
+ ├── services/
+ │   ├── __init__.py
+ │   ├── restaurant_service.py
+ │   ├── menu_service.py
+ │   ├── order_service.py
+ │   └── user_service.py
+ ├── routes/
+ │   ├── __init__.py
+ │   ├── restaurant_routes.py
+ │   ├── menu_routes.py
+ │   ├── order_routes.py
+ │   └── user_routes.py
+ ├── tests/
+ │   ├── __init__.py
+ │   ├── test_restaurant.py
+ │   ├── test_menu.py
+ │   ├── test_order.py
+ │   └── test_user.py
+ ├── .gitignore
+ ├── requirements.txt
+ └── app.py
